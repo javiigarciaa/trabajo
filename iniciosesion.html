@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <aside class="panel">
+      <h1 class="brand">Agradece en compañía</h1>
+      <p class="tag">Comparte gratitud y fortalece la comunidad</p>
+    </aside>
+
+    <main class="card">
+      <h2>Iniciar sesión</h2>
+      <p class="lead">Introduce tus credenciales para acceder</p>
+
+      <form class="login-form" novalidate>
+        <label class="field">
+          <span class="label-text">Correo electrónico</span>
+          <input type="email" placeholder="tu@correo.com" required>
+        </label>
+
+        <label class="field">
+          <span class="label-text">Contraseña</span>
+          <input type="password" placeholder="••••••••" required>
+        </label>
+
+        <div class="row">
+          <label class="remember"><input type="checkbox"> Recuérdame</label>
+          <a class="forgot" href="#" tabindex="0">¿Olvidaste tu contraseña?</a>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn primary">Entrar</button>
+          <button type="reset" class="btn outline">Borrar</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
